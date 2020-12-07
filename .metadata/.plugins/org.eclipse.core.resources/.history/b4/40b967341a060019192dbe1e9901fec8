@@ -1,0 +1,12 @@
+package com.crm.qa.testcases;
+
+public abstract class AbstractionConcept {
+
+	
+	//public abstract void fuel();
+	
+	public void price() {
+		
+		
+	}
+}

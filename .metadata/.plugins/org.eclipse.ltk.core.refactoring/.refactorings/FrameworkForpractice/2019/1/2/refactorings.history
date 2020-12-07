@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;testNGPractice.java&apos; to &apos;com.FrameworkForpractice.testNGPractice.java&apos;&#x0D;&#x0A;- Original project: &apos;FrameworkForpractice&apos;&#x0D;&#x0A;- Destination element: &apos;com.FrameworkForpractice.testNGPractice.java&apos;&#x0D;&#x0A;- Original element: &apos;com.FrameworkForpractice.testNGPractice.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/test\/java&lt;com.FrameworkForpractice{testNGPractice.java" element1="/src\/main\/java&lt;com.FrameworkForpractice{testNGPractice.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1547061004951" units="1" version="1.0"/>
+</session>

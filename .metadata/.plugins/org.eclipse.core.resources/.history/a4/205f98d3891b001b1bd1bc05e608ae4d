@@ -1,0 +1,12 @@
+
+public class Static_Nested {
+
+	static class
+	{
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	}
+
+}

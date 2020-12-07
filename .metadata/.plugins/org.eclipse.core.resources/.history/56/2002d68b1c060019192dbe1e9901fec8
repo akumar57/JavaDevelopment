@@ -1,0 +1,23 @@
+package com.crm.qa.testcases;
+
+public class HDFCBank extends AbstractionConcept{
+	
+	
+	
+	public void fuel()
+	{
+		
+		
+		
+	}
+	public static void main(String[] args)
+	
+	{
+		
+		
+		
+	}
+
+	
+	
+}

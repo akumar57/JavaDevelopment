@@ -1,0 +1,13 @@
+
+public class TestB {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		new TestA().methodPublic();
+		new TestA().methodDefault();
+		new TestA().methodProtected();
+		System.out.println("Value of long=="+new TestA().a);
+	}
+
+}

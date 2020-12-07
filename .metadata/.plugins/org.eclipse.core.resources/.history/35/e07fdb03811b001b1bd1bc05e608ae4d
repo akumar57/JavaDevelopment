@@ -1,0 +1,13 @@
+
+public class Outer {
+
+	void outerMethod()
+	{
+		System.out.println("this is ");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

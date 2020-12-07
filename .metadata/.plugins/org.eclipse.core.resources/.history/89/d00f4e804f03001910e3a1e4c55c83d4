@@ -1,0 +1,26 @@
+package strings;
+
+public class stringCharAtFunction {
+	
+	
+	public static void main(String args[])
+	{
+	String s = "Anand     is   a good      boy";
+	
+	System.out.println(s.trim());
+	
+	
+	
+	for (int i=0;i<=s.length();i++)
+	{
+
+	if(s.contains(""))
+	{
+	char ch = s.charAt(i-1);
+	
+	System.out.println(new String(" hello     there   ").trim().replaceAll("\\s{2,}", " "));
+
+		}
+	}
+
+}

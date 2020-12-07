@@ -1,0 +1,24 @@
+/**
+ * 
+ */
+package simplilearn;
+/**
+ * @author User
+ *
+ */
+public class AddArguements2
+{
+    public static void main(string args[])
+    { try { int sum=0;
+            for(int i=0;i<args.length;i++)
+            {
+                sum+=Integer.parseInt(args[i])
+                        }
+            
+            System.out.println("sum="=sum);}
+    catch(NumberFormatExceptionnfe) 
+    {
+            System.err.println("one of the command line"+"argument is not an integer.");
+    }
+}
+}

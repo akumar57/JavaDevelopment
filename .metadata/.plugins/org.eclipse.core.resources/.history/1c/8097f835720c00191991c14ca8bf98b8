@@ -1,0 +1,25 @@
+package com.crm.qa.testcases;
+
+public class HDFCBank extends AbstractionConcept implements Interface2{
+	
+	
+	
+	public void fuel()
+	{
+	 System.out.println("this is price..!!!");	
+	}
+	public static void main(String[] args)
+	
+	{
+		
+		
+		
+	}
+	public void Timepass() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	
+}

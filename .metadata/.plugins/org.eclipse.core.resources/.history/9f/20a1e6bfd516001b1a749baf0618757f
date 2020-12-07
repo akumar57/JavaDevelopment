@@ -1,0 +1,27 @@
+
+public class MethodOverloading {
+
+	
+	public void area(int a, int b)
+	{
+		
+	}
+	
+	public void area(float b)
+	{
+		
+	}
+	
+	public double area(double b)
+	{
+		double ar = b*b;
+		return ar;
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

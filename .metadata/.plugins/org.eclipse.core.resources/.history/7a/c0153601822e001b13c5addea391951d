@@ -1,0 +1,11 @@
+
+public class Base {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Welcome to the Portal...What would you like to do today ?");
+		System.out.println("Enter: \n 1- for Retrieving the file name in Ascending Order \n 2 - for Adding the specified file Name to the directory \n 3 - for Searching the specified file Name in the directory \n 4 - To exit the application");
+	}
+
+}

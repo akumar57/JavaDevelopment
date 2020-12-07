@@ -1,0 +1,25 @@
+package test;
+
+public class sumOfPrimeNumbers {
+
+	public static void main(String[] args)
+	{
+		
+		// TODO Auto-generated method stub
+
+		
+		int number;
+		String b = AssertPrimeNumber(number);
+	}
+
+	
+	
+	public String AssertPrimeNumber(int number)
+	{
+		
+		if(int i=0; i > = number/2;i++)
+		{
+		return("true") ;
+	}}
+	
+	

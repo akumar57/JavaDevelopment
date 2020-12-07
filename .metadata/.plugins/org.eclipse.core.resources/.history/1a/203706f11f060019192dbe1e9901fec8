@@ -1,0 +1,18 @@
+package com.crm.qa.testcases;
+
+public  class ICICIBank extends AbstractionConcept {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+	}
+
+	
+	@Override
+	public void fuel() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

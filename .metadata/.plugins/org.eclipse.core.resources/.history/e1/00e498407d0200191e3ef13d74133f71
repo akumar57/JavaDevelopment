@@ -1,0 +1,24 @@
+
+public class fnctionOverriding2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		 System.out.println("this is a general interest rate for all banks");	
+		
+	}
+
+}
+
+class bankss extends fnctionOverriding2{
+	
+	
+	void axisBank()
+	{
+	 System.out.println("this is a specific interest rate for axis bank");	
+	}
+}
+	
+	
+	
+

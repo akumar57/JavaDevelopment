@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Base {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Welcome to the Portal...What would you like to do today ?");
+		System.out.println("Enter: \n 1- To Retrieve the file name in Ascending Order \n 2- To Add the specified file Name \n 3- To Search the specified file Name \n 4- To exit the application");
+		int a = sc.nextInt();
+		
+		Boolean b = performOperation(a);
+
+	}
+	
+		private static Boolean performOperation(int a) {
+
+		switch(a)
+		{
+			case 1:
+				System.out.println("dfd");
+				break;
+			case 2:
+		}
+		
+			return null;
+		}
+}
+
+
+	
+	
+	
+

@@ -1,0 +1,13 @@
+package com.crm.qa.testcases;
+
+public abstract class AbstractionConcept {
+
+	
+	public void fuel() {
+		
+		
+		
+	}
+	
+	
+}

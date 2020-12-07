@@ -1,0 +1,30 @@
+package com.crm.qa.testcases;
+
+import org.testng.annotations.BeforeMethod;
+
+import com.crm.qa.base.TestBase;
+import com.crm.qa.pages.ContactsPage;
+import com.crm.qa.pages.LoginPage;
+
+public class ContactsPageTest extends TestBase {
+
+	static LoginPage login;
+	static ContactsPage contacts;
+	
+	
+	public ContactsPageTest()
+	{
+		super();
+	}
+	
+	@BeforeMethod
+	public void setup()
+	{
+		initialization();
+		  login = new LoginPage() ;
+		  contacts = new ContactsPage();
+		  login.login(prop.getProperty("username"), prop.getProperty("password"));
+	}
+	
+	
+}

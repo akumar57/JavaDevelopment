@@ -1,0 +1,22 @@
+package test;
+
+public class sumOfPrimeNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		boolean b = AssertPrimeNumber(number)
+	}
+
+	
+	
+	public boolean AssertPrimeNumber(number)
+	{
+		
+		if (int i=0; i<number/2;i++)
+		{
+		return true ;
+	}}
+	
+	

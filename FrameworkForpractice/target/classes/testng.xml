@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<suite name="Suite1" >
+  <test name="Yahoo App Test" >
+  
+  
+   <paramter name= "url" value = "https//www/google.com/" />
+   
+   <parameter name = "emailID" value = "kumar.anand.jss@gmail.com" />
+   
+   
+    
+
+ <classes>
+ <class name  = "com.FrameworkForpractice.testNGPractice"/>
+ </classes>
+ </test>
+    
+</suite>

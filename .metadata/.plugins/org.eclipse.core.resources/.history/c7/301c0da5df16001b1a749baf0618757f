@@ -1,0 +1,13 @@
+import java.util.HashSet;
+
+public class HashSetExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		HashSet hs = new HasHSet();
+		hs.add("l");
+		hs.add(2);
+	}
+
+}

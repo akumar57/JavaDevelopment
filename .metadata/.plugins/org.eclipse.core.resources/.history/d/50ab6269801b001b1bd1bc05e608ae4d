@@ -1,0 +1,13 @@
+
+public class Method_Local_Inner {
+
+	void outer_method()
+	{
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

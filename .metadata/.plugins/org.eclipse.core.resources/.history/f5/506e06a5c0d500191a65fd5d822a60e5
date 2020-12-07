@@ -1,0 +1,14 @@
+package test;
+
+public class Test { 
+	  class A { } 
+	  static class B { }
+	  public static void main(String[] args) { 
+	    /*will fail - compilation error, you need an instance of Test to instantiate A*/
+	   // A a = new A(); 
+		 Test t = new Test();
+		 
+	    /*will compile successfully, not instance of Test is needed to instantiate B */
+	    B b = new B(); 
+	  }
+	}

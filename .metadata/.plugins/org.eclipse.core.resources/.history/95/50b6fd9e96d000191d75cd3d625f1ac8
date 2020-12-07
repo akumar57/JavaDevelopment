@@ -1,0 +1,43 @@
+package com.crm.qa.pages;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.crm.qa.base.TestBase;
+import com.crm.qa.util.TestUtil;
+
+public class HomePage extends TestBase {
+	
+	@FindBy(xpath = "//*[@id='top-header-menu']/div[2]/span[1]")
+	WebElement  nameOfUser;
+	
+	@FindBy(xpath = "//*[@id='main-nav']/a[3]")
+	WebElement contactsLink;
+	
+	@FindBy(xpath = "//input[@type='text']")
+	WebElement searchTxtBox;
+	
+	
+	public String FetchUserName()
+	{		
+		String un = nameOfUser.getText();
+		return un;
+	}
+	
+	public ContactsPage ClickOnContactsPage() 
+	
+	{   System.out.println("hello..!!");
+//		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+//		contactsLink.click();
+//		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		return new ContactsPage();
+	}
+	
+public HomePage()
+	{
+		PageFactory.initElements(driver, this);	
+	}
+}

@@ -1,0 +1,18 @@
+package test;
+
+ class Employee {
+
+	
+	String name;
+	int age;
+	String domain;
+	
+	
+	Employee(String a,int b,String c) {
+			
+		this.name = a;
+		this.age = b;
+		this.domain=c;	
+		
+	}
+}
